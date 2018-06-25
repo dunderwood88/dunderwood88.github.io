@@ -1,27 +1,66 @@
 html {
-  font-family: 'Inconsolata', sans-serif;
-  font-size: 14px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 14px;
+    text-align: center;
 }
 
-#divMain {
-	margin: 5%;
+ul {
+    list-style: none;
 }
 
-#divMain h1, h2 {
-	margin:0;
+#divHeader {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
 }
 
-#divInfo {
-	width:70%;
-	display:inline-block;
+#divHeader li {
+    float: left;
 }
 
-#divSide {
-	float:right;
-	width:20%;
-	display:inline-block;
+#divHeader li a {
+    float: left;
+    display: block;
+    padding: 14px 16px;
 }
 
-#divSide img {
-	width:100%;
+.glitch {
+    font-size: 60px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transform: translate(0%, 0%);
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.glitch:before {
+    display: block;
+    content: 'dan underwood';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    color: #0ff;
+    z-index: -1;
+    right: 3px;
+    bottom: 2px;
+    text-shadow: 0 0 4px;
+}
+
+.glitch:after {
+    display: block;
+    content: 'dan underwood';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    color: #f0f;
+    z-index: -2;
+    right: 1px;
+    top: 4px;
+    text-shadow: 0 0 6px;
 }
