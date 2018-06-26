@@ -2,29 +2,83 @@ html {
     font-family: 'Inconsolata', sans-serif;
     font-size: 14px;
     text-align: center;
+    background-color: #000222;
+    color: #fff;
 }
 
 ul {
     list-style: none;
 }
 
-#divHeader {
+#main {
+    margin: 0 10%;
+}
+
+#main a {
+    color: #eb00eb;
+}
+
+#main a:hover {
+    color: #af00af;
+}
+
+#main .contentLeft {
+    width: 50%;
+    float: left;
+}
+
+#main .contentRight {
+    width: 50%;
+    float: right;
+}
+
+#header {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #000222;
     overflow: hidden;
 }
 
-#divHeader li {
+#header li {
     float: left;
 }
 
-#divHeader li a {
+#header li a {
     float: left;
     display: block;
     padding: 14px 16px;
+    text-decoration: none;
+    color: #fff;
 }
+
+#header li a:visited {
+    color: #fff;
+}
+
+#header li a:hover {
+    color: #eb00eb;
+    cursor: pointer;
+}
+
+#welcome {
+    padding: 12% 0 0 0;
+    margin-bottom: 50%;
+}
+
+#welcome h1 {
+    margin-bottom: 2%;
+}
+
+.content {
+    text-align: left;
+    margin-bottom: 75%;
+}
+
+/*#professional {
+    text-align: left;
+    margin-bottom: 25%;
+}*/
 
 .glitch {
     font-size: 60px;
@@ -35,6 +89,7 @@ ul {
     margin: 0;
     text-decoration: none;
     color: #fff;
+    filter: blur(1px);
 }
 
 .glitch:before {
@@ -47,7 +102,7 @@ ul {
     color: #0ff;
     z-index: -1;
     right: 3px;
-    bottom: 2px;
+    bottom: 1px;
     text-shadow: 0 0 4px;
 }
 
@@ -60,7 +115,7 @@ ul {
     opacity: .8;
     color: #f0f;
     z-index: -2;
-    right: 1px;
-    top: 4px;
+    left: 3px;
+    top: 1px;
     text-shadow: 0 0 6px;
 }
