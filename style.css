@@ -26,7 +26,6 @@ ul {
 
 #main .contentBlock {
     width: 50%;
-    float: left;
     display: inline-block;
 }
 
@@ -70,7 +69,7 @@ ul {
 #welcome {
     padding: 25vh 0 0 0;
     /*margin-bottom: 50%;*/
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #welcome h1 {
@@ -80,7 +79,11 @@ ul {
 .content {
     text-align: left;
     /*margin-bottom: 75%;*/
-    height: 100vh;
+    min-height: 100vh;
+}
+
+.left {
+    float: left;
 }
 
 /*#professional {
