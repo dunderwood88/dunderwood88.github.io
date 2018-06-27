@@ -68,8 +68,9 @@ ul {
 }
 
 #welcome {
-    padding: 12% 0 0 0;
+    padding: 25vh 0 0 0;
     /*margin-bottom: 50%;*/
+    height: 100vh;
 }
 
 #welcome h1 {
@@ -78,7 +79,8 @@ ul {
 
 .content {
     text-align: left;
-    margin-bottom: 75%;
+    /*margin-bottom: 75%;*/
+    height: 100vh;
 }
 
 /*#professional {
