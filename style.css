@@ -4,6 +4,8 @@ html {
     text-align: center;
     background-color: #000222;
     color: #fff;
+    /*background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");*/
+    background-attachment: fixed;
 }
 
 ul {
@@ -22,14 +24,10 @@ ul {
     color: #af00af;
 }
 
-#main .contentLeft {
+#main .contentBlock {
     width: 50%;
     float: left;
-}
-
-#main .contentRight {
-    width: 50%;
-    float: right;
+    display: inline-block;
 }
 
 #header {
@@ -38,16 +36,24 @@ ul {
     width: 100%;
     background-color: #000222;
     overflow: hidden;
+    text-align: center;
+    /*background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");*/
+}
+
+#header ul {
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #header li {
-    float: left;
+    display: inline-block;
+    margin: 0 4%;
 }
 
 #header li a {
     float: left;
     display: block;
-    padding: 14px 16px;
     text-decoration: none;
     color: #fff;
 }
@@ -63,7 +69,7 @@ ul {
 
 #welcome {
     padding: 12% 0 0 0;
-    margin-bottom: 50%;
+    /*margin-bottom: 50%;*/
 }
 
 #welcome h1 {
@@ -118,4 +124,47 @@ ul {
     left: 3px;
     top: 1px;
     text-shadow: 0 0 6px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column div img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.icon {
+    box-shadow:
+            -1px 0px 1px 1px #0ff,
+            1px 0px 1px 1px #f0f;
+    filter: blur(1px);
+    display: inline-flex;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
