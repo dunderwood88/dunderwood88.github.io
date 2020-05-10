@@ -85,6 +85,7 @@ ul {
 
 .content img {
     width: 30%;
+    max-width: 100%;
 }
 
 .left {
