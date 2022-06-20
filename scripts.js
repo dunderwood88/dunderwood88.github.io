@@ -45,7 +45,7 @@ $(document).ready(function(){
 
         // build img elements
         var imgElem = document.createElement("img");
-        imgElem.src = "images/art/" + artArray[i] + ".png";
+        imgElem.src = "images/art/" + artArray[i] + ".jpg";
         imgElem.setAttribute("alt", artArray[i]);
         // append to appropriate div element
         document.getElementById("divArt" + artDivId).appendChild(imgElem);
