@@ -3,43 +3,21 @@
 <head>
     <meta name="Description" content="Dan Underwood's Personal Webpage." />
     <meta name="Keywords"
-          content="Daniel, Underwood, isaac, physics, computer, lab, quantum, phd, cambridge, ucl" />
+          content="Daniel, Underwood, quantum, phd, cambridge, ucl, art" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="Distribution" content="Global" />
     <meta name="Author" content="Daniel Underwood" />
     <meta name="Robots" content="index,follow" />
+
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-    <script src="https://use.fontawesome.com/56631bbab3.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            // Add smooth scrolling to all links
-            $("a").on('click', function(event) {
+    <script type="text/javascript" src="scripts.js"></script>
 
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the
-                    // specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 1000, function(){
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-        });
-    </script>
     <title>Dr. Dan Underwood</title>
 </head>
 <body>
@@ -61,7 +39,7 @@
     <div id="main">
 
         <div id="welcome">
-            <h1 class="glitch">dan underwood</h1>
+            <h1>dan underwood</h1>
             <p>hi, my name is dan, welcome to my website.</p>
             <p>scroll down or use the links below to have a look.</p>
         </div>
@@ -70,100 +48,35 @@
             </br>
             <h2>professional</h2>
 
-            <p>
-                i currently work as a research scientist/developer at riverlane:
-                <a style="text-decoration: underline;" href="https://riverlane.com" target="_blank">
-                    https://riverlane.com</a>. i am interested in using qubits to develop quantum computing algorithms.
-            </p>
-
-            <p>
-                i previously worked as a research associate at the cambridge university department of computer science
-                and technology. i worked on the isaac physics project:
-                <a style="text-decoration: underline;" href="http://www.isaacphysics.org" target="_blank">
-                    http://www.isaacphysics.org</a>. i focused on platform development and data-driven research.
-            </p>
-
-            <p>
-                i have a phd in physics from university college london, where i was a member of the exomol project,
-                who are interested in analysing exoplanets:
-                <a style="text-decoration: underline;" href="http://www.exomol.com" target="_blank">
-                    http://exomol.com</a>.
-                my work focused on the high performance computational chemistry and analysis of spectroscopic data for
-                molecular species present in the atmospheres of earth and other planets.
-            </p>
-            <p>
-                you can view my phd thesis here:
-                <a style="text-decoration: underline;" href="http://discovery.ucl.ac.uk/1540031/" target="_blank">
-                    thesis</a>.
-            </p>
-
-            <p>
-                i have also worked as a software and web developer for a few different commercial companies. you can
-                view a pdf of my cv here:
-                <a style="text-decoration: underline;" href="../docs/DanUnderwoodCV.pdf" target="_blank">
-                    curriculum vitae</a>.
-            </p>
-
-            <p>
-                check out my linkedin profile: 
-                <a style="text-decoration: underline;" href="https://www.linkedin.com/in/dan-underwood-96936439/" target="_blank">
-                     linkedin</a>.
-            </p>
+            
 
             <div>
 
                 <div class="contentBlock left">
 
                     <p>
-                        technologies:
-
-                    <ul>
-                        <li>scientific: c++, fortran, python</li>
-                        <li>web backend: c#, java, node.js, php</li>
-                        <li>web frontend: css3, html5, javascript (vanilla/angular/jquery)</li>
-                        <li>data: kafka, mongodb, sql</li>
-                        <li>other: docker, git</li>
-                    </ul>
+                        i've worked as a scientist and engineer across both research and industry. 
+                        i've tinkered with a bunch of different technologies, from web applications to quantum computing. 
+                        you can view my CV here:
+                        <a href="docs/DanUnderwoodCV.pdf" target="_blank">
+                            curriculum vitae</a>.
+                    </p>
+                    <p>
+                        i have a phd in physics. if you really want to you can view my phd thesis here:
+                        <a href="http://discovery.ucl.ac.uk/1540031/" target="_blank">
+                            thesis</a>.
+                    </p>
+                    <p>
+                        check out my linkedin profile if you're into that kind of thing: 
+                        <a href="https://www.linkedin.com/in/dan-underwood-96936439/" target="_blank">
+                             linkedin</a>.
                     </p>
 
                 </div>
 
-                <div class="contentBlock">
-
-                    <p>
-                        publications:
-
-                    <ul>
-                        <li>
-                            <a style="text-decoration: underline;"
-                               href="https://doi.org/10.1093/mnras/stw1828" target="_blank">
-                                exomol molecular line lists – xvii. the rotation–vibration spectrum of hot so3</a>,
-                            2016, mnras
-                        </li>
-                        <li>
-                            <a style="text-decoration: underline;"
-                               href="http://dx.doi.org/10.1016/j.jms.2016.05.002" target="_blank">
-                                the exomol database: molecular line lists for exoplanet and other hot atmospheres</a>,
-                            2016, jms</li>
-                        <li>
-                            <a style="text-decoration: underline;"
-                               href="https://doi.org/10.1093/mnras/stw849" target="_blank">
-                                exomol molecular line lists – xiv. the rotation–vibration spectrum of hot so2</a>,
-                            2016, mnras</li>
-                        <li>
-                            <a style="text-decoration: underline;"
-                               href="https://doi.org/10.1063/1.4882865" target="_blank">
-                                rotational spectrum of so3 and theoretical evidence for the formation of sixfold
-                                rotational energy-level clusters in its vibrational ground state</a>,
-                            2014, jcp</li>
-                        <li>
-                            <a style="text-decoration: underline;"
-                               href="https://doi.org/10.1039/c3cp50303h" target="_blank">
-                                an ab initio variationally computed room-temperature line list for so3</a>,
-                            2013, jcp</li>
-                    </ul>
-                    </p>
-
+                <div class="contentBlock profPhoto">
+                    <img src="images/headshot_cropped.jpeg" title="it me">
+                    <p>obligatory professional photo</p>
                 </div>
 
             </div>
@@ -173,31 +86,36 @@
             </br>
             <h2>personal</h2>
 
-            <div class="contentLeft">
+            <div>
                 <p>
-                    i am from london, uk. i have also lived in málaga, spain and vancouver, canada. i currently live in
-                    cambridge, uk.
+                    i am from london, uk. i have also lived in málaga, spain and vancouver, canada.
                 </p>
 
                 <p>
-                    i like physics, music, books, art, philosophy, running and travelling. i also like to ride my bike.
+                    i like music, books, art, philosophy, science, keeping fit and travelling.
                 </p>
 
                 <p>
-                    follow me on twitter: <a style="text-decoration: underline;"
-                                             href="https://twitter.com/underthew00d" target="_blank">@underthew00d</a>
-                    and/or instagram: <a style="text-decoration: underline;"
-                                         href="https://www.instagram.com/underthew00d/" target="_blank">
+                    follow me on twitter: <a href="https://twitter.com/underthew00d" target="_blank">@underthew00d</a>
+                    and/or instagram: <a href="https://www.instagram.com/underthew00d/" target="_blank">
                     @underthew00d</a>.
                 </p>
 
-                <p>
-                    this is me:
-                    </br>
-                    </br>
-                    <img src="images/headshot_cropped.jpeg" alt="dan">
+                <p>i dabble in art:</p>
 
-                </p>
+                <div>
+                    <div id="divArt1" class="contentBlock art">
+                    </div>
+    
+                    <div id="divArt2" class="contentBlock art">
+                    </div>
+    
+                    <div id="divArt3" class="contentBlock art">
+                    </div>
+
+                    <div id="divArt4" class="contentBlock art">
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -206,7 +124,7 @@
             </br>
             <h2>contact</h2>
 
-            <div class="contentLeft">
+            <div>
                 <p>
                     send me an <a href="mailto:dan.underwood88@gmail.com">email</a>.
                 </p>
