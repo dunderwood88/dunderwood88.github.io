@@ -129,3 +129,15 @@ ul {
         width: 100%;
     }
 }
+
+
+@media only screen and (max-width: 500px) {
+
+    #main .contentBlock {
+        width: 100%;
+    }
+
+    #nav a {
+        font-size: 18px;
+    }
+}
