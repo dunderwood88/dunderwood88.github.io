@@ -28,10 +28,10 @@ $(document).ready(function(){
 
     // 2) Randomly load art images
     var artArray = [
-        "bear", "bee", "bird", "camel", "capybara", "cat", 
-        "demon", "dino", "dino2", "dogmouse", "easter",
-        "giraffe", "hedgehog", "lion", "mandrill", "moby",
-        "moon", "nelly", "pig", "worm"
+        "bats", "bear", "bee", "bird", "birds" "camel", "capybara",
+        "cat", "cow", "demon", "demon2", "dino", "dino2", "dogmouse",
+        "easter", "ghosts", "giraffe", "hedgehog", "lion", "lion2", "mandrill", 
+        "moby", "monkey", "moon", "nelly", "pig", "thing", "worm"
     ];
     
     // randomise images and render
