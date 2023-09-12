@@ -28,7 +28,7 @@ $(document).ready(function(){
 
     // 2) Randomly load art images
     var artArray = [
-        "bats", "bear", "bee", "bird", "birds" "camel", "capybara",
+        "bats", "bear", "bee", "bird", "birds", "camel", "capybara",
         "cat", "cow", "demon", "demon2", "dino", "dino2", "dogmouse",
         "easter", "ghosts", "giraffe", "hedgehog", "lion", "lion2", "mandrill", 
         "moby", "monkey", "moon", "nelly", "pig", "thing", "worm"
