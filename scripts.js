@@ -51,7 +51,7 @@ $(document).ready(function(){
         document.getElementById("divArt" + artDivId).appendChild(imgElem);
 
         // increment to next div if full
-        if (i % 5 == 0) {
+        if (i % 4 == 0) {
             artDivId++;
         }
     }
